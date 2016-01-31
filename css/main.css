@@ -394,8 +394,9 @@ li {
       .main-interface .sidebar .filter-options .filter-header {
         margin-bottom: 48px;
         margin-top: 0;
-        padding-top: 48px;
-        font-size: 2rem;
+        padding-top: 40px;
+        font-size: 1.75rem;
+        font-weight: normal;
         border-bottom: 1px solid rgba(255, 255, 255, 0.65);
         padding-bottom: 32px; }
       .main-interface .sidebar .filter-options input[type=text] {
@@ -407,14 +408,28 @@ li {
         font-size: 1.25rem; }
         .main-interface .sidebar .filter-options input[type=text]:focus {
           background-color: #f9f9f9; }
+    .main-interface .sidebar .filter-sentence {
+      background-color: rgba(0, 0, 0, 0.7);
+      height: 150px;
+      width: 200px;
+      padding: 0 20px; }
+      .main-interface .sidebar .filter-sentence .filter {
+        font-size: 1.5rem;
+        font-weight: 700; }
+        .main-interface .sidebar .filter-sentence .filter input[type=submit] {
+          background-color: rgba(255, 255, 255, 0.65);
+          color: #222;
+          border: none;
+          margin: 8px 0;
+          margin-left: 12px; }
     .main-interface .sidebar .saved-filters {
       padding: 0 20px; }
       .main-interface .sidebar .saved-filters .saved-filters-header {
         margin-bottom: 48px;
         margin-top: 0;
-        padding-top: 48px;
-        font-size: 2rem;
-        padding-top: 64px;
+        padding-top: 40px;
+        font-size: 1.75rem;
+        font-weight: normal;
         border-bottom: 1px solid rgba(255, 255, 255, 0.65);
         padding-bottom: 32px; }
   .main-interface .navbar {
