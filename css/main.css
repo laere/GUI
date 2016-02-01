@@ -376,12 +376,13 @@ ul {
 
 li {
   margin: 8px;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  padding: 0; }
 
 .main-interface {
   max-width: 1300px;
   height: 900px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   margin: 32px auto; }
   .main-interface .sidebar {
     width: 200px;
@@ -390,52 +391,64 @@ li {
     border-right: 1px solid rgba(255, 255, 255, 0.65);
     color: #fff; }
     .main-interface .sidebar .filter-options {
-      padding: 0 20px; }
+      padding-left: 20px;
+      margin-bottom: 16px; }
       .main-interface .sidebar .filter-options .filter-header {
-        margin-bottom: 48px;
+        margin-bottom: 24px;
         margin-top: 0;
         padding-top: 40px;
         font-size: 1.75rem;
         font-weight: normal;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.65);
         padding-bottom: 32px; }
       .main-interface .sidebar .filter-options input[type=text] {
         border: none;
-        border-radius: 20px;
+        border-radius: 5px;
         padding: 8px;
         margin-bottom: 32px;
         color: #333;
         font-size: 1.25rem; }
         .main-interface .sidebar .filter-options input[type=text]:focus {
-          background-color: #f9f9f9; }
+          background-color: #f9f9f9;
+          box-shadow: inset 1px 1px 15px #888; }
     .main-interface .sidebar .filter-sentence {
-      background-color: rgba(0, 0, 0, 0.7);
       height: 150px;
       width: 200px;
       padding: 0 20px; }
       .main-interface .sidebar .filter-sentence .filter {
         font-size: 1.5rem;
-        font-weight: 700; }
+        font-weight: 700;
+        background-color: #222;
+        margin-bottom: 4px; }
         .main-interface .sidebar .filter-sentence .filter input[type=submit] {
-          background-color: rgba(255, 255, 255, 0.65);
+          background: #fff;
           color: #222;
           border: none;
           margin: 8px 0;
           margin-left: 12px; }
-    .main-interface .sidebar .saved-filters {
-      padding: 0 20px; }
-      .main-interface .sidebar .saved-filters .saved-filters-header {
-        margin-bottom: 48px;
-        margin-top: 0;
-        padding-top: 40px;
-        font-size: 1.75rem;
-        font-weight: normal;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.65);
-        padding-bottom: 32px; }
+          .main-interface .sidebar .filter-sentence .filter input[type=submit]:hover {
+            opacity: .85; }
+    .main-interface .sidebar .saved-filters-header {
+      margin-bottom: 24px;
+      margin-top: 0;
+      padding-top: 40px;
+      font-size: 1.75rem;
+      font-weight: normal;
+      padding-left: 20px;
+      padding-bottom: 32px; }
+    .main-interface .sidebar ul {
+      padding-left: 20px; }
+      .main-interface .sidebar ul li {
+        margin-bottom: 16px; }
   .main-interface .navbar {
     width: 1300px;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.65);
     border-bottom: 1px solid rgba(255, 255, 255, 0.65); }
+    .main-interface .navbar h1 {
+      color: white;
+      font-weight: bold;
+      font-size: 3rem;
+      text-align: center;
+      padding-top: 64px; }
 
 /*# sourceMappingURL=main.css.map */
